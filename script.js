@@ -6,11 +6,11 @@ function averageAge() {
 	var familyAge = cori + charlene + sienna + jayde;
 	familyAge = familyAge / 4;
 
-	alert("the average age of the family is"+ " " + familyAge);
-	return;
+	var message = "The average age of the family is" + " " + familyAge + ".";
+	alert(message);
 
+	return;
 }
 
 averageAge();
-
 
